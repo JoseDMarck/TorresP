@@ -1,0 +1,562 @@
+
+/* --------------------------------------------------------
+/* ---- Responsive: 1920px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:4000px) {
+
+ 
+
+
+}/* 2200 */
+
+
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 1920px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:1920px) {
+
+ 
+
+
+}/* 19320 */
+
+
+
+
+
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 1800px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:1800px) {
+
+ 
+
+}/* 2200 */
+
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 1690px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:1580px) {
+
+.logo-senador {
+    width: 400px;
+}
+
+
+.bloqueCentralVideo {
+    width: 600px;
+}
+
+
+.btn_ver_video {
+    width: 210px;
+    font-size: 23px;
+}
+
+ 
+} /* 1690 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 1480px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:1480px) {
+ 
+ 
+  
+
+}/* 14480 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 1366px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:1366px) {
+
+
+.seccion-header {
+    height: 890px;
+}
+
+
+.menu {
+    width: 240px;
+    height: auto;
+}
+
+.logo-prd {
+    width: 200px;
+}
+
+ 
+
+
+}/* 1366 */
+
+
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 1280px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:1290px) {
+
+  
+
+}/* 1280 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 1280px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:1280px) {
+
+ 
+
+
+}/* 1280 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 1200px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:1200px) {
+
+ 
+
+
+
+}/* 1200 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 1152px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:1152px) {
+ 
+
+ .logo-senador {
+    width: 330px;
+}
+ 
+
+}/* 1152 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 1024px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:1024px) {
+ 
+ 
+
+}/* 1024 */
+
+
+ 
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 1010px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:1010px) {
+ 
+ .menu{
+  display: none;
+ } 
+
+
+  .menu-movil{
+    display: block;
+  }
+
+
+.logo-senador {
+  display: none;
+}
+
+
+.logo-prd {
+  display: none;
+}
+
+
+.seccion-header {
+  padding-top: 40px;
+}
+
+
+.bloqueCentralVideo {
+    width: 500px;
+}
+
+
+.btn_ver_video {
+    width: 195px;
+    font-size: 23px;
+}
+
+
+.imagen_portada {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #000;
+    background: url(../images/header/portada_movil.png) center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.seccion-header {
+    height: 460px;
+}
+ 
+
+.bloqueCentralVideo {
+    width: 400px;
+}
+
+
+ .bloqueCentralVideo > .Logo-Orgullo {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.btn_ver_video {
+    width: 120px;
+    font-size: 14px;
+    padding: 0px;
+}
+
+
+.barra-colores {
+    width: 100%;
+    height: 46px;
+    background-size: 100% 46px;
+}
+
+
+.bloqueCentralVideo {
+    bottom: 20px;
+}
+
+
+#player{
+  height: 400px;
+}
+
+.ContenedorVideo > .btn_close {
+    right: 10px;
+    top: 50px;
+}
+
+
+.footer {
+    width: 90%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    background-color: #FFF;
+    margin-top: 60px;
+    border-top: 4px solid #8A8A8A;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.logo-prd-footer{
+  width: 60px;
+}
+
+
+.logo-tp-footer{
+  width: 150px;
+}
+
+
+.logo-prd-footer {
+    width: 50px;
+    margin: 0 auto;
+}
+
+.logo-tp-footer { 
+    width: 130px; 
+    margin: 0 auto;
+    float: none;
+}
+
+
+
+ .facebook{
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+    margin: 0 auto;
+ }
+
+
+ .twitter{
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+    margin: 0 auto;
+ }
+
+
+ .instagram{
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+    margin: 0 auto;
+ }
+
+
+
+ .youtube{
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+    margin: 0 auto;
+ }
+
+
+ .contenedorNoticiasNew {
+    margin-top: 100px;
+}
+
+
+.BloquesNoticiasNew {
+    width: 280px;
+}
+
+.BloquesNoticiasNew > .imagen {
+    height: 149px;
+}
+
+
+.contenedorNoticiasNew .slick-prev{
+  width: 20px;
+  height: 34px;
+  background: url("../images/Generales/Flecha-Izquierda.png");
+  background-size: 20px 34px;
+}
+
+
+.contenedorNoticiasNew .slick-next{
+  width: 20px;
+  height: 34px;
+  background: url("../images/Generales/Flecha-derecha.png");
+  background-size: 20px 34px;
+}
+
+
+}/* 1000 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 1010px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:960px) {
+
+ 
+} /* 960*/
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 860px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:860px) {
+
+ 
+
+
+}/* 800 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 860px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:800px) {
+
+
+ 
+
+}/* 800 */
+
+/* --------------------------------------------------------
+/* ---- Responsive: 768px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:780px) {
+ 
+}/* 768 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 680px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:680px) {
+
+  
+
+}/* 680 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 650px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:650px) {
+
+ 
+
+
+}/* 650 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 600px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:600px) {
+
+ 
+.footer > .Bloques {
+    width: 80%;
+    height: auto;
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+}/* 600 */
+
+
+
+ 
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 568px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:568px) {
+ 
+.seccion-header {
+    height: 460px;
+}
+ 
+
+.bloqueCentralVideo {
+    width: 100%;
+}
+
+
+ .bloqueCentralVideo > .Logo-Orgullo {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.btn_ver_video {
+    width: 120px;
+    font-size: 14px;
+    padding: 0px;
+}
+
+
+.barra-colores {
+    width: 100%;
+    height: 46px;
+    background-size: 100% 46px;
+}
+
+} /* 568 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 480px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:480px) {
+  
+ 
+
+
+ 
+
+} /* 480 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 400px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:420px) {
+ 
+ 
+
+
+}/* 400 */
+
+
+ 
+@media only screen and (max-width:380px) {
+	 
+
+ 
+
+
+}/* 380 */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 360px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:360px) {
+
+ 
+ 
+}/* 360 */
+
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 320px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:320px) {
+ 
+
+}/* 320 */

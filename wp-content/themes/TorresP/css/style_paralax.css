@@ -1,0 +1,95 @@
+ 
+
+#hero {
+  height: 480px;
+  overflow: hidden;
+  position: relative;
+}
+
+#content {
+  background-color: #130d0a;
+}
+
+.layer {
+  background-position: bottom center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 480px;
+  position: fixed;
+}
+
+#hero-mobile {
+  display: none;
+  background: url("../images/headerParallax/full_illustration.png") no-repeat center bottom/cover;
+  height: 320px;
+}
+
+  
+ 
+
+#hero, .layer {
+  min-height: 480px;
+}
+
+.layer-bg {
+  background-image: url("../images/headerParallax/ilu_bg.jpg");
+}
+
+.layer-1 {
+  background-image: url("../images/headerParallax/capas/capa_1.png");
+  background-size: 1750px 489px;
+
+}
+
+.layer-2 {
+  background-image: url("../images/headerParallax/capas/capa_2.png");
+  background-size: 1750px 489px;
+
+}
+
+.layer-3 {
+  background-image: url("../images/headerParallax/capas/capa_3.png");
+  background-size: 1750px 489px;
+
+  top: -7%;
+}
+
+.layer-4 {
+  background-image: url("../images/headerParallax/capas/capa_4.png");
+  background-size: 1750px 489px;
+
+}
+
+.layer-5 {
+  background-image: url("../images/headerParallax/capas/capa_5.png");
+  background-size: 1750px 489px;
+  
+}
+
+.layer-6 {
+  background-image: url("../images/footer/capa_1.png");
+  bottom: 15%;
+}
+
+.layer-7 {
+  background-image: url("../images/footer/capa_2.png");
+  bottom: 32%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  #hero {
+    /*display: none;*/
+  }
+
+}
+.tutorial-link {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: underline;
+}
+.tutorial-link:hover {
+  color: #ede0d5;
+}

@@ -1,0 +1,109 @@
+ 
+/* --------------------------------------------------------
+/* ---- Landing
+-------------------------------------------------------- */
+
+.Landing{
+  max-width: 2560px;
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: #1B3658;
+
+}
+
+/* --------------------------------------------------------
+/* ---- HEADER
+-------------------------------------------------------- */
+
+.Landing > .ContenedorCenter{
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+.Landing > .ContenedorCenter > .logo{
+  max-width: 500px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 20px
+}
+.Landing > .ContenedorCenter > .video{
+  width: 100%;
+  height: 420px;
+  margin: 0 auto;
+-webkit-box-shadow: -1px 6px 46px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 6px 46px 2px rgba(0,0,0,0.75);
+box-shadow: -1px 6px 46px 2px rgba(0,0,0,0.75);
+margin-bottom: 40px;
+
+}
+
+
+.Landing > .ContenedorCenter > .fecha{
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+}
+
+.Landing > .ContenedorCenter > .fecha img{
+  width: 100%;
+  height: auto;
+}
+
+
+.assets_l_web{
+  display: block;
+}
+
+
+.assets_l_movil{
+  display: none;
+}
+
+
+/* --------------------------------------------------------
+/* ---- FOOTER
+-------------------------------------------------------- */
+
+
+.Landing-Footer{
+  width: 100%;
+  height: 822px;
+  position: absolute;
+  bottom: 0;
+  background: url("../images/landing/landing_footer.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+   background-size: cover;
+}
+
+.Landing-Footer > .logo{
+  max-width: 400px;
+  width:100%;
+  height: auto;
+  position: absolute;
+  margin: 0 auto; 
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 5%;
+}
+
+.Landing-Footer > .logo img{
+  width: 100%;
+  height: auto
+}
