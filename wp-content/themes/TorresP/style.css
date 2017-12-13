@@ -48,6 +48,14 @@
     src: url(fuentes/Gotham/Gotham-Medium.otf) format("truetype");
 }
 
+@font-face {
+    font-family: "Gotham-Light";
+    src: url(fuentes/Gotham/Gotham-Light.otf) format("truetype");
+}
+
+
+
+
 
 /*------------------------------------*\
     MAIN
@@ -651,10 +659,10 @@ input:focus {
   width: 100%;
   height: auto;
   margin: 0 auto;
-  font-family: "Futura";
-  font-size: 16px;
-  line-height: 20px;
-  text-align: justify;
+  font-family: "Gotham-Light";
+  font-size: 20px;
+  line-height: 22px;
+  text-align: left;
   color: #636363;
 
 }
