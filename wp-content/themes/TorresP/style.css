@@ -541,8 +541,8 @@ input:focus {
     background-color: #FFF;
     margin-top: 20px;
     border-top: 3px solid #8A8A8A;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
@@ -570,6 +570,7 @@ input:focus {
   height: auto;
   margin-right:  20px;
   float: right;
+  margin-top: 15px;
 }
 
 .logo-tp-footer img{
