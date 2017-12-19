@@ -12,7 +12,7 @@ $(".btn_ver_video").click(function(ev){
     $video_id = $(this).attr('class').split(' ')[1];
      
    
-    player.loadVideoById("efEL5BvLq3k");
+    player.loadVideoById("AmCG8PUQiv0");
 
 
     
