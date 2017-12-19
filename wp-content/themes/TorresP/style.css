@@ -424,6 +424,7 @@ input:focus {
     color: #656565;
     text-align: center;
     margin: 0 auto;
+    cursor: pointer;
     border-radius: 5px;
 }
 
@@ -476,6 +477,7 @@ input:focus {
   position: absolute;
   right: 40px;
   top: 60px;
+  cursor: pointer;
 } 
 
 
