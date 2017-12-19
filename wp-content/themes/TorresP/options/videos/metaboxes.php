@@ -16,6 +16,7 @@
   function datos_video( $post ) { 
       $video_youtube = (get_post_meta($post->ID, 'id_video_youtube', true));
       $video_facebook = (get_post_meta($post->ID, 'id_video_facebook', true));
+      $video_url = (get_post_meta($post->ID, 'id_video_url', true));
   ?>
 
 
@@ -30,6 +31,13 @@
   <div>Introduce el códico de inserción del video de faceebook (Dentro del video: opciones -> insertar )</div> <br>
 
   <input type="text" name="id_video_facebook" id="id_video_facebook" value='<?php echo $video_facebook;  ?>' style="width: 600px;" />
+
+
+
+ <h3>Link para videos </h3>
+  <div>Introduce la URL del video</div> <br>
+
+  <input type="text" name="id_video_url" id="id_video_url" value='<?php echo $video_url; ?>' style="width: 600px;" />
 
 
 
@@ -51,4 +59,13 @@
   $var_1= $_POST['id_video_facebook'];
   update_post_meta($post_id, 'id_video_facebook', $var_1);
 
+}
+
+
+add_action('save_post', 'post_video_url');
+  function post_video_url() {
+  global $wpdb, $post;
+  if (!$post_id) $post_id = $_POST['post_ID'];
+  $var_1= $_POST['id_video_url'];
+  update_post_meta($post_id, 'id_video_url', $var_1);
 }
