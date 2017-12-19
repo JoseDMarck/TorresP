@@ -24,7 +24,7 @@
             <img src="<?php echo get_template_directory_uri(); ?>/images/Generales/Logo-Orgullo.png">
         </div>
 
-        <div class="btn_ver_video">VER VIDEO</div>
+        <div class="btn_ver_video">DOCUMENTAL</div>
 
     </div><!--bloqueCentralVideo -->
 
