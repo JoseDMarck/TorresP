@@ -20,13 +20,14 @@
     <div class="BloquesNoticiasNew">
 
       <div class="imagen">
-         <a href="<?php echo the_permalink(); ?>">
+         <a href="<?php echo $video_url = (get_post_meta($post->ID, 'id_video_url', true)); ?>"  target="_blank">
             <?php the_post_thumbnail('cienciario-size'); ?>
          </a>
       </div><!-- imagen -->
 
       <div class="titulo">
-          <a href="<?php echo the_permalink(); ?>">
+          <a href="<?php echo $video_url = (get_post_meta($post->ID, 'id_video_url', true)); ?>"  target="_blank">
+
             <?php the_title(); ?>
           </a>
        </div>
