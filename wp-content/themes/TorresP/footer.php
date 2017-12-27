@@ -44,7 +44,13 @@
 	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/menueventos/menu.js"></script> 
 
 	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/mainEvents.js"></script> 
-	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/Eventos_videos.js"></script>
+	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/Eventos_videos.js"></script> 
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/greensock-js/src/uncompressed/TweenLite.js"></script>
+	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/greensock-js/src/uncompressed/TimelineLite.js"></script>
+	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/greensock-js/src/uncompressed/TweenLite.js"></script>
+
+
 
 
 		<?php wp_footer(); ?>
