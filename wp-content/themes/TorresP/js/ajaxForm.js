@@ -1,17 +1,18 @@
-
+ // wait for the DOM to be loaded 
         
- 
+			function redireccionarPagina() {
+ 				window.location = "http://leninteescucha.com/";
+				}
+
+            // bind 'myForm' and provide a simple callback function 
+            $('#new_post').ajaxForm(function() { 
+
+            		$('.mensajeAlertaContenedor').fadeIn();
+
+            	
+
+				setTimeout("redireccionarPagina()", 3000);
 
 
-	// bind 'myForm' and provide a simple callback function 
-    $('.contacto_form').ajaxForm(function() { 
-    	
-
-    	$(".contenedorMensajeCorreo").fadeIn();
-		setTimeout("window.location.reload();", 1500); 
-		 
-	}); 
-
-
-	 
+            }); 
  
