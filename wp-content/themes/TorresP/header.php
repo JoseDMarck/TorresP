@@ -15,6 +15,7 @@
 		 
 
 		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/materialize/materialize.min.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap-4.0.0-beta.2/dist/css/bootstrap.css">
 		<meta name="description" content="Torres Piña precandidato a Senador">
 
 	<script>
@@ -38,7 +39,7 @@
 	<?php echo get_template_part("contenidos/Loading/loading")?>
 
 	<body class="flexcroll">
-		<div class="customCursor box"></div>
+
 
  
  
