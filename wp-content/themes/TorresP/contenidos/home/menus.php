@@ -11,30 +11,30 @@
         </div>
 
         <div class="Bloques">
-          <a href="">Trayectoria</a>
+          <a href="#">Trayectoria</a>
         </div>
 
         <div class="Bloques">
-           <a href="">Propuestas</a>
-        </div>
-
-
-        <div class="Bloques">
-           <a href="">Yo te escucho</a>
+           <a href="<?php echo site_url(); ?>/propuestas">Propuestas</a>
         </div>
 
 
         <div class="Bloques">
-           <a href="">Multimedia</a>
+           <a href="#">Yo te escucho</a>
         </div>
 
 
         <div class="Bloques">
-           <a href="">Descargas</a>
+           <a href="#">Multimedia</a>
+        </div>
+
+
+        <div class="Bloques">
+           <a href="#">Descargas</a>
         </div>
 
         <div class="Bloques">
-           <a href="">Prensa</a>
+           <a href="#">Prensa</a>
         </div>
 
       </div><!-- contenedor -->
@@ -59,34 +59,34 @@
 
       <div class="contenedor">
         <div class="Bloques">
-          <a href="">Inicio</a>
+          <a href="<?php echo site_url(); ?>">Inicio</a>
         </div>
 
         <div class="Bloques">
-          <a href="">Trayectoria</a>
+          <a href="#">Trayectoria</a>
         </div>
 
         <div class="Bloques">
-           <a href="">Propuestas</a>
-        </div>
-
-
-        <div class="Bloques">
-           <a href="">Yo te escucho</a>
+           <a href="<?php echo site_url(); ?>/propuestas/">Propuestas</a>
         </div>
 
 
         <div class="Bloques">
-           <a href="">Multimedia</a>
+           <a href="#">Yo te escucho</a>
         </div>
 
 
         <div class="Bloques">
-           <a href="">Descargas</a>
+           <a href="#">Multimedia</a>
+        </div>
+
+
+        <div class="Bloques">
+           <a href="#">Descargas</a>
         </div>
 
         <div class="Bloques">
-           <a href="">Prensa</a>
+           <a href="#">Prensa</a>
         </div>
 
       </div><!-- contenedor -->
