@@ -1,7 +1,9 @@
 <div class="seccion-general">
   <div class="formulario-seccion">
+
+    <h1>Envíanos tu propuesta </h1>
     
-<form class="container" id="needs-validation" novalidate>
+<form class="container" id="needs-validation" novalidate action="<?php echo get_template_directory_uri(); ?>/formulario_insertar.php">
   <div class="form-row">
    
 
@@ -31,7 +33,7 @@
 <br>
   <div class="form-row">
     <div class="form-group col-md-4">
-         <h2 for="inputAddress">Municipio</h2>
+         <h2 for="inputAddress">Seleccione su municipio</h2>
       <select id="inputState" class="form-control" required>
    <option>Morelia </option>
    <option>Acuitzio </option>
@@ -182,8 +184,8 @@
 
  
 
-
-  <button type="submit" class="btn btn-primary">Enviar</button>
+<br>
+  <button type="submit" class="btn btn-primary"><h3>Enviar</h3></button>
 </form>
 
 

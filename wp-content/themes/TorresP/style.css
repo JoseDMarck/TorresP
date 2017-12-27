@@ -1066,6 +1066,13 @@ svg {
     }
 
 
+    .formulario-seccion h1{
+      font-family: "Gotham-Medium" !important;
+      font-size: 30px !important;
+      text-align: center;
+    }
+
+
 /*------------------------------------*\
     PRELOADER GIF ANIMACION
 \*------------------------------------*/
