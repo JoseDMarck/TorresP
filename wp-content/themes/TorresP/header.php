@@ -38,6 +38,7 @@
 	<?php echo get_template_part("contenidos/Loading/loading")?>
 
 	<body class="flexcroll">
+		<div class="customCursor box"></div>
 
  
  
