@@ -2,7 +2,7 @@
 var tag;
 var firstScriptTag;
 var player;
-$video_id = "efEL5BvLq3k";
+$video_id = "qJbDZUXMuT8";
 
 
 $(".btn_ver_video").click(function(ev){
@@ -12,7 +12,7 @@ $(".btn_ver_video").click(function(ev){
     $video_id = $(this).attr('class').split(' ')[1];
      
    
-    player.loadVideoById("AmCG8PUQiv0");
+    player.loadVideoById("qJbDZUXMuT8");
 
 
     
