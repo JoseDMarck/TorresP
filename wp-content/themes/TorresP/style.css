@@ -57,6 +57,8 @@
 
 
 
+
+
 /*------------------------------------*\
     MAIN
 \*------------------------------------*/
@@ -151,6 +153,8 @@ input:focus {
     MAIN
 \*------------------------------------*/
 
+ 
+
 .main{
 	max-width: 2560px;
 	width: 100%;
@@ -192,6 +196,21 @@ input:focus {
    background-size: cover;
 }
  
+
+.customCursor{
+    width: 32px;
+    height: 54px; 
+    position: absolute;
+    left:0;
+    right: 0px;
+    top: 0;
+    background: url("images/Generales/pina.png");
+    background-size: 32px 54px; 
+    z-index: 99999999;
+    -webkit-backface-visibility: hidden;
+    pointer-events: none;
+
+}
 
 
 /*------------------------------------*\
@@ -426,6 +445,21 @@ input:focus {
     margin: 0 auto;
     cursor: pointer;
     border-radius: 5px;
+
+    -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+}
+
+.btn_ver_video:hover{
+  background-color: #4DC5BA;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  color: #FFF;
+
 }
 
 .bloqueCentralVideo > .Logo-Orgullo {
@@ -765,6 +799,7 @@ border: 0px solid #000000;
   margin-bottom: 20px;
 }
 
+ 
 
 .BloquesNoticiasNew > .imagen{
   width: 100%;
@@ -778,6 +813,21 @@ border: 0px solid #000000;
   overflow: hidden; 
   position: relative;
   background: #C8C8C8;
+
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+
+}
+
+
+.BloquesNoticiasNew > .imagen:hover{
+
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
 
 }
 
