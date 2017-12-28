@@ -1,9 +1,15 @@
 <div class="seccion-general">
+
+<div class="contenedorMensajeCorreo">
+    <div class="msj">Tu propuesta se ha enviado correctamente</div>
+</div>
+
+
   <div class="formulario-seccion">
 
     <h1>Envíanos tu propuesta </h1>
     
-<form class="container" id="needs-validation" novalidate action="<?php echo get_template_directory_uri(); ?>/formulario_insertar.php">
+<form class="container contacto_form" id="needs-validation"  name="contacto"  method="post" novalidate action="<?php echo get_template_directory_uri(); ?>/contactoServices/ContactoService.php">
   <div class="form-row">
    
 
@@ -25,7 +31,7 @@
         <h2 for="inputEmail4" required>Correo</h2>
         <input type="email" class="form-control" id="inputEmail4" placeholder="Introduzca el correo" required>
         <div class="invalid-feedback">
-        El campo de correo es requerido
+        El campo de correo es requerid o tiene que tener el formato de correo válido
       </div>
     </div>
 </div>
@@ -186,27 +192,13 @@
 
 <br>
   <button type="submit" class="btn btn-primary"><h3>Enviar</h3></button>
+
+
 </form>
 
 
 
-<script>
-// Example starter JavaScript for disabling form submissions if there are invalid fields
-(function() {
-  'use strict';
-
-  window.addEventListener('load', function() {
-    var form = document.getElementById('needs-validation');
-    form.addEventListener('submit', function(event) {
-      if (form.checkValidity() === false) {
-        event.preventDefault();
-        event.stopPropagation();
-      }
-      form.classList.add('was-validated');
-    }, false);
-  }, false);
-})();
-</script>
+ 
 
 
 </div> <!-- formulario-seccion -->
