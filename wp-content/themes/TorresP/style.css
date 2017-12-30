@@ -1106,6 +1106,37 @@ svg {
 }
 
 
+
+/*------------------------------------*\
+   PROPUESTAS: formulario;
+\*------------------------------------*/ 
+
+  .Textos-seccion{
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.Textos-seccion > .titulo{
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.Textos-seccion > .contenido {
+  width: 90%;
+  height: auto;
+  font-size: 20px;
+  margin: 0 auto
+}
+
+.Textos-seccion > .contenido p {
+   margin-bottom: 20px;
+
+}
+
 /*------------------------------------*\
     PRELOADER GIF ANIMACION
 \*------------------------------------*/
