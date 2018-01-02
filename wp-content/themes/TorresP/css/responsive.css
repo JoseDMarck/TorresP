@@ -207,6 +207,11 @@ box-shadow: 0px 10px 21px -6px rgba(0,0,0,0.75);
   margin-top: 40px;
 }
 
+.seccion-header-inside {
+  padding-top: 0px;
+  margin-top: 40px;
+}
+
 
 .bloqueCentralVideo {
     width: 500px;
@@ -418,6 +423,10 @@ box-shadow: 0px 10px 21px -6px rgba(0,0,0,0.75);
 
 @media only screen and (max-width:780px) {
  
+.Textos-seccion > .titulo{
+  font-size: 20px;
+}
+
 }/* 768 */
 
 
@@ -478,6 +487,10 @@ box-shadow: 0px 10px 21px -6px rgba(0,0,0,0.75);
  
 .seccion-header {
     height: 460px;
+}
+
+.seccion-header-inside {
+    height: 460px !important;
 }
  
 

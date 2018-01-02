@@ -9,7 +9,7 @@
 
 
 <!-- HEADER -->
-<?php echo get_template_part("contenidos/home/1-header"); ?>
+<?php echo get_template_part("contenidos/home/1-header-inside"); ?>
 
 <!-- VIDEOS LOOPS-->
  <?php echo get_template_part("contenidos/biografia/biografia"); ?>
