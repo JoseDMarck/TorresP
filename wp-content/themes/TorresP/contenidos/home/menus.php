@@ -63,7 +63,7 @@
         </div>
 
         <div class="Bloques">
-          <a href="#">Trayectoria</a>
+          <a href="<?php echo site_url(); ?>/biografia">Biografía</a>
         </div>
 
         <div class="Bloques">
