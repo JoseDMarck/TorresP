@@ -6,10 +6,9 @@
 
 
  
- <div class="seccion-header-inside">
-    <div class="imagen_portada"></div>
-    <!-- Menu ====================== -->
-    <?php echo get_template_part("contenidos/home/menus-inside"); ?>
+
+ <div class="seccion-header-single">
+    <?php echo get_template_part("contenidos/home/menus"); ?>
 
 
 
@@ -19,7 +18,10 @@
     <!-- BLOQUE PARA VIDEO ====================== -->
     <div class="bloqueCentralVideo">
           
- 
+
+        <div class="Logo-Orgullo">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/Generales/Logo-Orgullo.png">
+        </div>
 
         <div class="btn_ver_video">DOCUMENTAL</div>
 

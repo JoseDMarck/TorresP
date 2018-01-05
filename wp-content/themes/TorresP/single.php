@@ -1,10 +1,10 @@
-<?php get_header(); ?>
+ <?php echo get_template_part("header-single"); ?>
 
 
 	<div class="main">
 	 
 	 <!-- HEADER -->
-	<?php echo get_template_part("contenidos/home/1-header"); ?>
+	<?php echo get_template_part("contenidos/home/1-header-single"); ?>
 
 
 	<div class="mainSingleContenedor">
@@ -15,33 +15,23 @@
 			<div class="cuerpo-post">
  				
  				<?php  while (have_posts()) : the_post(); ?>
+				
+	
+ 				<div class="imagen_post">
+						<?php the_post_thumbnail('cienciario-size');?>
+				</div>
+
 				<div class="titulo">
  					<?php the_title(); ?>
  				</div>
 	
-	
- 				<div class="imagen_post">
-						<?php the_post_thumbnail('cienciario-size');?>
-					</div>
+
 				<!-- post details -->
-				<div class="date"><?php the_time('j/F, Y g:ia'); ?></div>
-				<div class="author"><?php _e( 'Publicado por:', 'html5blank' ); ?> <?php the_author_posts_link(); ?></div>
-			
-				
-				<div class="videos_meta_contenedor">
+				<div class="date">Publicado el <?php the_time('j F  Y'); ?></div> 
+				<br>
+				 
 
-
-				 <?php $video_youtube = (get_post_meta($post->ID, 'id_video_youtube', true));
-
-				 	if( $video_youtube != ""){ ?>
-
-				 	<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/<?php echo $video_youtube; ?>?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
-
-
-				 	<?php } ?>
-		
-
-				 </div>
+				 
 
 
 				<?php the_content(); // Dynamic Content ?>
@@ -58,7 +48,14 @@
 	
 			</div><!-- Cuerpo post  --> 
 	
+			 <?php echo get_template_part("contenidos/redes-sociales/redes-sociales"); ?>
+
+
+
 		</div><!-- single contenedor -->
+
+
+
 
 
 

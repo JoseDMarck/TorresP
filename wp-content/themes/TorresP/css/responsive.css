@@ -63,6 +63,10 @@
     font-size: 23px;
 }
 
+.SingleContenedor > .cuerpo-post {
+    width: 70%;
+}
+
  
 } /* 1690 */
 
@@ -71,10 +75,12 @@
 /* ---- Responsive: 1480px
 -------------------------------------------------------- */
 
-@media only screen and (max-width:1480px) {
+@media only screen and (max-width:1420px) {
  
  
-  
+  .SingleContenedor > .cuerpo-post {
+    width: 65%;
+}
 
 }/* 14480 */
 
@@ -138,8 +144,60 @@
 @media only screen and (max-width:1200px) {
 
  
+.SingleContenedor > .cuerpo-post {
+    max-width: 1024px;
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    padding: 0px 0 20px 10px;
+    border-right: solid 0px rgba(0, 0, 0, 0);
+}
+
+.BloqueSiderBar{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+}
+
+.BloqueSiderBar > .Bloques {
+    width: 33.33%;
+    height: 500px;
+    float: left;
+    padding: 0px 0 20px 10px;
+    border-right: solid 50px rgba(0, 0, 0, 0);
+}
+
+.BloqueSiderBar > .titulo {
+    width: 33.33%;
+    height: auto;
+    float: left;
+    padding: 0px 0 20px 10px;
+    border-right: solid 50px rgba(0, 0, 0, 0);
+    display: none;
+}
+
+.titulo-p{
+    width: 100% !important;
+    height: auto !important;
+    text-align: center !important;
+   
+    clear: both !important;
+    display: block !important;
+     margin: 0 auto !important;
+    margin-bottom: 30px !important;
+
+}
 
 
+.BloqueSiderBar > .barra {
+    width: 33.33%;
+    height: 4px;
+    float: left;
+    padding: 0px 0 20px 10px;
+    border-right: solid 50px rgba(0, 0, 0, 0);
+    display: none;
+}
 
 }/* 1200 */
 
@@ -187,8 +245,16 @@
   .menu-movil{
     display: block;
     -webkit-box-shadow: 0px 10px 21px -6px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 10px 21px -6px rgba(0,0,0,0.75);
-box-shadow: 0px 10px 21px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 21px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 21px -6px rgba(0,0,0,0.75);
+  }
+
+
+ .menu-movil-single{
+    display: block;
+    -webkit-box-shadow: 0px 10px 21px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 21px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 21px -6px rgba(0,0,0,0.75);
   }
 
 
@@ -390,7 +456,14 @@ box-shadow: 0px 10px 21px -6px rgba(0,0,0,0.75);
 
 @media only screen and (max-width:960px) {
 
- 
+ .BloqueSiderBar > .Bloques {
+    width: 50%;
+    height: 500px;
+    float: left;
+    padding: 0px 0 20px 10px;
+    border-right: solid 50px rgba(0, 0, 0, 0);
+}
+
 } /* 960*/
 
 
@@ -400,7 +473,9 @@ box-shadow: 0px 10px 21px -6px rgba(0,0,0,0.75);
 
 @media only screen and (max-width:860px) {
 
- 
+ .loop-seccion > .contenido > .BloquesNoticias{
+  width: 50%;
+}
 
 
 }/* 800 */
@@ -427,6 +502,13 @@ box-shadow: 0px 10px 21px -6px rgba(0,0,0,0.75);
   font-size: 20px;
 }
 
+
+.loop-seccion > .titulo {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+
 }/* 768 */
 
 
@@ -436,7 +518,23 @@ box-shadow: 0px 10px 21px -6px rgba(0,0,0,0.75);
 
 @media only screen and (max-width:680px) {
 
-  
+  .SingleContenedor > .cuerpo-post > .titulo {
+    font-size: 25px;
+    line-height: 25px;
+}
+
+ .BloqueSiderBar > .Bloques {
+    width: 100%;
+    height: 340px;
+    float: left;
+    padding: 0px 0 20px 10px;
+    border-right: solid 50px rgba(0, 0, 0, 0);
+    padding: 0px 0 20px 10px;
+    border-right: solid 0px rgba(0, 0, 0, 0);
+}
+
+
+
 
 }/* 680 */
 
@@ -468,8 +566,19 @@ box-shadow: 0px 10px 21px -6px rgba(0,0,0,0.75);
     margin-bottom: 20px;
 }
 
+.SingleContenedor > .cuerpo-post {
+    font-size: 16px;
+    line-height: 25px;
+} 
 
+.SingleContenedor > .cuerpo-post blockquote {
+    font-size: 18px;
+    line-height: 24px;
+}
 
+.SingleContenedor > .cuerpo-post > .date {
+    font-size: 14px;
+}
 
 
 }/* 600 */
@@ -518,6 +627,15 @@ box-shadow: 0px 10px 21px -6px rgba(0,0,0,0.75);
     background-size: 100% 46px;
 }
 
+.loop-seccion > .contenido > .BloquesNoticias{
+  width: 80%;
+  float: none;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+  border-right: solid 0px rgba(0, 0, 0, 0);
+}
+
 } /* 568 */
 
 
@@ -527,7 +645,11 @@ box-shadow: 0px 10px 21px -6px rgba(0,0,0,0.75);
 
 @media only screen and (max-width:480px) {
   
- 
+ .loop-seccion > .titulo {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
 
 
  
@@ -550,7 +672,10 @@ box-shadow: 0px 10px 21px -6px rgba(0,0,0,0.75);
  
 @media only screen and (max-width:380px) {
 	 
-
+  .SingleContenedor > .cuerpo-post > .titulo {
+    font-size: 20px;
+    line-height: 20px;
+}
  
 
 

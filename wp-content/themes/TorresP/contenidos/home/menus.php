@@ -20,21 +20,21 @@
 
 
         <div class="Bloques">
-           <a href="#">Yo te escucho</a>
+           <a href="<?php echo site_url(); ?>/yo-te-escucho/">Yo te escucho</a>
         </div>
 
 
         <div class="Bloques">
-           <a href="#">Multimedia</a>
+           <a href="<?php echo site_url(); ?>/multimedia/">Multimedia</a>
         </div>
 
 
         <div class="Bloques">
-           <a href="#">Descargas</a>
+           <a href="<?php echo site_url(); ?>/descargas/">Descargas</a>
         </div>
 
         <div class="Bloques">
-           <a href="#">Prensa</a>
+           <a href="<?php echo site_url(); ?>/prensa/">Prensa</a>
         </div>
 
       </div><!-- contenedor -->
@@ -67,26 +67,26 @@
         </div>
 
         <div class="Bloques">
-           <a href="<?php echo site_url(); ?>/propuestas/">Propuestas</a>
+           <a href="<?php echo site_url(); ?>/propuestas">Propuestas</a>
         </div>
 
 
         <div class="Bloques">
-           <a href="#">Yo te escucho</a>
+           <a href="<?php echo site_url(); ?>/yo-te-escucho/">Yo te escucho</a>
         </div>
 
 
         <div class="Bloques">
-           <a href="#">Multimedia</a>
+           <a href="<?php echo site_url(); ?>/multimedia/">Multimedia</a>
         </div>
 
 
         <div class="Bloques">
-           <a href="#">Descargas</a>
+           <a href="<?php echo site_url(); ?>/descargas/">Descargas</a>
         </div>
 
         <div class="Bloques">
-           <a href="#">Prensa</a>
+           <a href="<?php echo site_url(); ?>/prensa/">Prensa</a>
         </div>
 
       </div><!-- contenedor -->

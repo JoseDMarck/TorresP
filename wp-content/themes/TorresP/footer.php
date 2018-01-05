@@ -3,7 +3,7 @@
 
 
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery-ajax-3.2.0.min.js"></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.1.9.1.min.js"></script>
 
 	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/jquery.form.js"></script>
